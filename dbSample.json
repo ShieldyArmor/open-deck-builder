@@ -1,0 +1,183 @@
+{
+    "hand": [],
+    "deck": [],
+    "collection": [
+      {
+        "name": "Name1",
+        "description": "Description1",
+        "category": "Category1",
+        "color": "#FF5733",
+        "symbol": "fa-solid fa-house",
+        "number": "3"
+      },
+      {
+        "name": "Name2",
+        "description": "Description2",
+        "category": "Category2",
+        "color": "#1ABC9C",
+        "symbol": "★",
+        "number": "K"
+      },
+      {
+        "name": "Name3",
+        "description": "Description3",
+        "category": "Category3",
+        "color": "#3498DB",
+        "symbol": "☂",
+        "number": "9"
+      },
+      {
+        "name": "Name4",
+        "description": "Description4",
+        "category": "Category4",
+        "color": "#9B59B6",
+        "symbol": "✿",
+        "number": "5"
+      },
+      {
+        "name": "Name5",
+        "description": "Description5",
+        "category": "Category5",
+        "color": "#E74C3C",
+        "symbol": "♞",
+        "number": "Q"
+      },
+      {
+        "name": "Name6",
+        "description": "Description6",
+        "category": "Category6",
+        "color": "#34495E",
+        "symbol": "✈",
+        "number": "7"
+      },
+      {
+        "name": "Name7",
+        "description": "Description7",
+        "category": "Category7",
+        "color": "#16A085",
+        "symbol": "⛒",
+        "number": "2"
+      },
+      {
+        "name": "Name8",
+        "description": "Description8",
+        "category": "Category8",
+        "color": "#27AE60",
+        "symbol": "♔",
+        "number": "J"
+      },
+      {
+        "name": "Name9",
+        "description": "Description9",
+        "category": "Category9",
+        "color": "#2980B9",
+        "symbol": "♫",
+        "number": "10"
+      },
+      {
+        "name": "Name10",
+        "description": "Description10",
+        "category": "Category10",
+        "color": "#8E44AD",
+        "symbol": "⚑",
+        "number": "6"
+      },
+      {
+        "name": "Name11",
+        "description": "Description11",
+        "category": "Category11",
+        "color": "#F39C12",
+        "symbol": "♠",
+        "number": "A"
+      },
+      {
+        "name": "Name12",
+        "description": "Description12",
+        "category": "Category12",
+        "color": "#D35400",
+        "symbol": "✉",
+        "number": "4"
+      },
+      {
+        "name": "Name13",
+        "description": "Description13",
+        "category": "Category13",
+        "color": "#C0392B",
+        "symbol": "☯",
+        "number": "8"
+      },
+      {
+        "name": "Name14",
+        "description": "Description14",
+        "category": "Category14",
+        "color": "#BDC3C7",
+        "symbol": "☀",
+        "number": "K"
+      },
+      {
+        "name": "Name15",
+        "description": "Description15",
+        "category": "Category15",
+        "color": "#7F8C8D",
+        "symbol": "♛",
+        "number": "J"
+      },
+      {
+        "name": "Name16",
+        "description": "Description16",
+        "category": "Category16",
+        "color": "#2C3E50",
+        "symbol": "✆",
+        "number": "A"
+      },
+      {
+        "name": "Name17",
+        "description": "Description17",
+        "category": "Category17",
+        "color": "#2980B9",
+        "symbol": "⛒",
+        "number": "2"
+      },
+      {
+        "name": "Name18",
+        "description": "Description18",
+        "category": "Category18",
+        "color": "#16A085",
+        "symbol": "♩",
+        "number": "3"
+      },
+      {
+        "name": "Name19",
+        "description": "Description19",
+        "category": "Category19",
+        "color": "#8E44AD",
+        "symbol": "✖",
+        "number": "5"
+      },
+      {
+        "name": "Name20",
+        "description": "Description20",
+        "category": "Category20",
+        "color": "#F39C12",
+        "symbol": "⚙",
+        "number": "9"
+      },
+      {
+        "name": "Name21",
+        "description": "Description21",
+        "category": "Category21",
+        "color": "#D35400",
+        "symbol": "♜",
+        "number": "6"
+      },
+      {
+        "name": "Name22",
+        "description": "Description22",
+        "category": "Category22",
+        "color": "#C0392B",
+        "symbol": "☽",
+        "number": "4"
+      }
+    ]
+  }
+  

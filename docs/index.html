@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/index.css">
+    <script src="https://cdn.jsdelivr.net/npm/@shopify/draggable@1.0.0-beta.11/lib/draggable.bundle.legacy.js" defer></script>
+    <script src="https://kit.fontawesome.com/410de7c08b.js" crossorigin="anonymous"></script>
+    <script src="js/index.js" defer></script>
+    <script src="js/service-worker.js" defer></script>
+    <title>Open Deck Builder</title>
+
+    <link id="favicon" rel="icon" href="img/favicon14.png" sizes="32x32" type="image/png" >
+
+    <script>
+        if ('serviceWorker' in navigator) {
+            window.addEventListener('load', function() {
+                navigator.serviceWorker.register('js/service-worker.js').then(function(registration) {
+                    console.log('ServiceWorker registration successful with scope: ', registration.scope);
+                }, function(err) {
+                    console.log('ServiceWorker registration failed: ', err);
+                });
+            });
+        }
+
+        window.onload = function() {
+            var faviconIndex = 0;
+            var favicon = document.getElementById('favicon');
+        
+            setInterval(function() {
+                switch(faviconIndex) {
+                    case 0:
+                        favicon.href = 'img/favicon14.png';
+                        break;
+                    case 1: 
+                        favicon.href = 'img/favicon15.png';
+                        break;
+                    case 2:
+                        favicon.href = 'img/favicon3.png';
+                        break;
+                    case 3:
+                        favicon.href = 'img/favicon4.png';
+                        break;
+                }
+                faviconIndex++;
+                faviconIndex %= 4;
+            }, 1000);
+        };
+        </script>
+
+</head>
+<body>
+    <div id="modalBackground"></div>
+    <div id="zoomModal" class="modal"></div>
+    <div id="creationModal" class="modal">
+        <div id="creationForm">
+            <input type="text" id="cardNameIn" placeholder="Name">
+            <textarea id="cardDescIn" placeholder="Description"></textarea>
+            <input type="text" id="cardCatIn" placeholder="Category">
+            <input type="color" id="cardColorIn" placeholder="">
+            <input type="text" id="cardNmbrIn" placeholder="Number">
+            <input type="text" id="cardSymIn" placeholder="Symbol/FA Classes">
+            <button id="creationButton">Create Card</button>
+        </div>
+    </div>
+    <div id="settingsModal" class="modal">
+        <div id="settingsBox">
+            <div>
+            <label for="bgColorIn">Background color</label>
+            <input type="color" id="bgColorIn" placeholder="">
+            </div>
+            <div id="fileButtons">
+                <label for="fileButtons">Card data</label>
+                <button id="saveFileBtn">Save</button>
+                <button id="loadFileBtn">Load</button>
+                <!-- <input id="loadFileBtn" type="file" name="filename"> -->
+            </div>
+        </div>
+    </div>
+    <div id="navBtns">
+    <button id="creationModalBtn">Add cards</button>
+    <button id="settingsBtn">Settings</button>
+    </div>
+
+    <div id="cardsDisplay">
+        <h1>Hand</h1>
+        <div id="handCards" class="container">
+
+        </div>
+        <h1>Deck</h1>
+        <div id="deckCards" class="container">
+
+        </div>
+        <h1>Collection</h1>
+        <div id="collectionCards" class="container">
+        </div>
+    </div>
+
+    <div id="cardContextMenu">
+        <button id="cmDelete">Delete</button>
+    </div>
+
+</body>
+</html>
